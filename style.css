@@ -1,12 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
-header {background-color: aqua;}
+header {
+    
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 3em 1em 4.5em;
+    box-shadow: 0px 6px 5px -1px #f8f6f6;
+
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 3ch;
+    font-family: "Oxygen", sans-serif;
+}
+
+#logo img {
+    height: 2em;
+    padding-right: .5em;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar * {
+    margin: 0 .7em 0 .7em;
+    cursor: pointer;
+}
+
+#navbar p:first-of-type {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 20px;
+    line-height: 1px;
+    font-size: 1.3ch;
+    font-weight: 100;
+    padding: 1em;
+    
+}
+#navbar p:last-of-type {
+    background-color: #f4511e;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+}
+
+
 main {background-color: brown;}
 aside {background-color: blueviolet;}
 
 #superContainer {
     display: flex;
+    padding-top: 3em;
 }
