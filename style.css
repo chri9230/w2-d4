@@ -147,14 +147,11 @@ main {
     list-style-type: none;
 }
 
-.card-footer li:nth-child(3) {
+.card-footer button {
     border-radius: 10px;
-    background-color: rgb(217, 217, 217);
-    padding: .1em 1.4em .1em 1em;
-}
-
-.card-footer li:nth-child(4) {
-    margin-left: 2em;
+    border: none;
+    color: #9e9e9e;
+    font-size: 1.8ch;
 }
 
 
@@ -171,7 +168,7 @@ main {
 
 
 aside {
-    padding: 3em 5em 1em 3em;
+    padding: 3em 3em 1em 3em;
     font-size: 1.3ch;
     width: 40vw;
 }
@@ -227,6 +224,69 @@ nav:first-child span{
 
 nav:nth-of-type(2) {
     padding-top: 3em;
+
+}
+
+nav h4 {
+    font-weight: 500;
+    font-size: 11px;
+    margin-bottom: .8em;
+}
+
+nav:nth-of-type(2) button {
+    font-weight: 300;
+    font-size: 10px;
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+    margin: .4em .1em .4em 0;
+}
+
+.med-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
 
 
+.card-mini {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    font-size: smaller;   
+    align-items: center;
+    height: 70px;
+}
+nav h5 {
+    font-size: 1.9ch;
+    font-weight: 900;
+    padding-bottom: .2em;
+}
+
+.card-mini div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-mini div div {
+    display: flex;
+    flex-direction: column;
+    padding: .6em;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-mini button {
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 10px;
+    
+}
+
+.card-mini div p {
+    color: #9e9e9e;
+    
+    
+}
